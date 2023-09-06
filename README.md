@@ -1,6 +1,7 @@
-# CACIC2023_AIREDM
-Repo del Curso **"Acceso a Información Relevante  en la Era de los Datos Masivos" (CACIC 2023)**
-Este repositorio contiene notebooks Python con ejemplos y ejercicios que cubren cada una de las clases de este curso.
+# Curso: "Acceso a Información Relevante  en la Era de los Datos Masivos" (CACIC 2023)
+Repo del Curso **"Acceso a Información Relevante  en la Era de los Datos Masivos"** de la Escuela de Informática de [[CACIC 2023]](https://cacic2023.unlu.edu.ar/escuela/index.html)
+
+Este repositorio contiene notebooks Python con ejemplos y ejercicios que cubren cada una de las clases.
 
 
 ## Introducción
@@ -21,13 +22,11 @@ Las clases están divididas en cuatro temas:
 Clonar este repo:
 ```
 $ git clone https://github.com/tolosoft/CACIC2023_AIREDM.git
-
 ```
-Ejecutar la siguiente imagen de Docker (la primera vez se descarga de DockerHub):
+Ejecutar la siguiente imagen de Docker (la primera vez se descarga de [Docker Hub](https://hub.docker.com/repository/docker/tolosoft/cacic_airedm/general)):
 
 ```
 $ docker run -p 8888:8888 -e GRANT_SUDO=yes -w /home/jovyan/work -v "$(pwd)://home/jovyan/work" tolosoft/cacic_airedm:latest
-
 ```
 
 La misma está basada en jupyter/base-notebook (https://hub.docker.com/r/jupyter/base-notebook) y contiene todas la librerías necesarias para ejecutar los ejemplos del curso.
