@@ -26,7 +26,7 @@ $ git clone https://github.com/tolosoft/CACIC2023_AIREDM.git
 Ejecutar la siguiente imagen de Docker (la primera vez se descarga de [Docker Hub](https://hub.docker.com/repository/docker/tolosoft/cacic_airedm/general)):
 
 ```
-$ docker run -p 8888:8888 -e GRANT_SUDO=yes -w /home/jovyan/work -v "$(pwd)://home/jovyan/work" tolosoft/cacic_airedm:latest
+$ docker run -p 8888:8888 -e GRANT_SUDO=yes --user 1001:100 -w /home/jovyan -v "/home/alumno:/home/jovyan/" tolosoft/cacic_airedm:latest
 ```
 
 La misma está basada en jupyter/base-notebook (https://hub.docker.com/r/jupyter/base-notebook) y contiene todas la librerías necesarias para ejecutar los ejemplos del curso.

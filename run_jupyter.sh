@@ -1,3 +1,2 @@
 cd ~
-docker run -p 8888:8888 -e GRANT_SUDO=yes -w /home/jovyan/work -v "$(pwd)://home/jovyan/work" tolosoft/cacic_airedm:latest
-
+docker run -p 8888:8888 -e GRANT_SUDO=yes --user 1001:100 -w /home/jovyan -v "/home/alumno:/home/jovyan/" tolosoft/cacic_airedm:latest
