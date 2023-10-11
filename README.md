@@ -15,8 +15,8 @@ Las clases están divididas en cuatro temas:
 - Día 1: Indexación y Recuperación [[Diapos]](https://docs.google.com/presentation/d/1UrOGUqKOK19cXZyKWNZJk51Clag8f9CtWqJmhaoz2BI/edit#slide=id.g24bd9a771fb_0_604)
 - Día 2: Compresión [[Diapos]](https://docs.google.com/presentation/d/1lFhy8b8Cb-yU0-3J7R25BFurfcSkxsigo_oGFLcteUQ/edit#slide=id.g24bd9a771fb_0_604)
 - Día 3: Caching [[Diapos]](https://docs.google.com/presentation/d/1MUx23Qrr6QasIV-f0VrFmQ7RiICDAid_c4p8uQBUFZU/edit#slide=id.g24bd9a771fb_0_604)
-- Día 4: Representaciones Densas y Recuparación [[Diapos]](#https://docs.google.com/presentation/d/1OpWbDC_gbFtR18If63UleCG3Hv-EJhzti2I8ORfWNnE/edit#slide=id.g24bd9a771fb_0_604)
-- Cierre [[Diapos]](#https://docs.google.com/presentation/d/10HwwzPTxvKYbuRltAvxpYH7f50vS0n6jOBf4o6EE44A/edit#slide=id.g278e59606ae_0_0)
+- Día 4: Representaciones Densas y Recuparación [[Diapos]](https://docs.google.com/presentation/d/1OpWbDC_gbFtR18If63UleCG3Hv-EJhzti2I8ORfWNnE/edit#slide=id.g24bd9a771fb_0_604)
+- Cierre [[Diapos]](https://docs.google.com/presentation/d/10HwwzPTxvKYbuRltAvxpYH7f50vS0n6jOBf4o6EE44A/edit#slide=id.g278e59606ae_0_0)
 
 ## Setup
 Clonar este repo:
